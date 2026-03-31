@@ -25,9 +25,9 @@ const NavBar = () => {
 
                 <div className='hidden md:flex items-center gap-8 text-sm font-bold tracking-widest text-slate-400'>
                     <a href="#hero" className='hover:text-sky-400 transition-colors'>HOME</a>
-                    <a href="#projects" className='hover:text-sky-400 transition-colors'>PROJECTS</a>
-                    <a href="about" className='hover:text-sky-400 transition-colors'>ABOUT</a>
-                    <a href="contact" className='px-5 py-2 bg-sky-500/10 border border-sky-500/20 text-sky-400 rounded-full hover:bg-sky-500 hover:text-white transition-all uppercase'>CONTACT</a>
+                    <a href="#about" className='hover:text-sky-400 transition-colors'>ABOUT</a>
+                    <a href="#projects" className='hover:text-sky-400 transition-colors'>Projects</a>
+                    <a href="#contact" className='px-5 py-2 bg-sky-500/10 border border-sky-500/20 text-sky-400 rounded-full hover:bg-sky-500 hover:text-white transition-all uppercase'>CONTACT</a>
                 </div>
 
                 <div className='md:hidden text-sky-400 cursor-pointer text-3xl' onClick={() => setNavOpen(!navOpen)}>
@@ -38,9 +38,9 @@ const NavBar = () => {
             <div className={`md:hidden absoluite top-full left-0 w-full bg-slate-950 border-b border-slate-800 transition-all duration-300 overflow-hidden ${navOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'}`}>
                 <div className='flex flex-col gap-6 p-8 text-center text-sm font-bold tracking-widest text-slate-400 uppercase'>
                     <a href="#hero" className='hover:text-sky-400' onClick={() => setNavOpen(false)}>HOME</a>
-                    <a href="#projects" className='hover:text-sky-400' onClick={() => setNavOpen(false)}>PROJECTS</a>
                     <a href="#about" className='hover:text-sky-400' onClick={() => setNavOpen(false)}>ABOUT</a>
-                    <a href="#contact" className='hover:text-sky-400' onClick={() => setNavOpen(false)}>HOME</a>
+                    <a href="#projects" className='hover:text-sky-400' onClick={() => setNavOpen(false)}>PROJECTS</a>
+                    <a href="#contact" className='hover:text-sky-400' onClick={() => setNavOpen(false)}>CONTACT</a>
 
                 </div>
 
