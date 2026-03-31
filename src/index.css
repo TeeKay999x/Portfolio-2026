@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root{
+--color-dark: #0f172a;
+--color-accent: #38bdf8;
+--color-muted: #94a3b8;
+}
+
+body{
+    background-color: var(--color-dark);
+    color: white;
+    margin: 0;
+    font-family: sans-serif
+}
