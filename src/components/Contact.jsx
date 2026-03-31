@@ -31,7 +31,7 @@ const Contact = () => {
                         </a>
 
                         {/* Secondary Action: WhatsApp/Chat */}
-                        <a href="https://wa.me/07077975970" className="flex items-center gap-4 p-6 bg-slate-950/50 border border-slate-800 rounded-2xl hover:border-emerald-500/50 hover:bg-emerald-500/5 transition-all group">
+                        <a href="https://wa.me/07038973947" className="flex items-center gap-4 p-6 bg-slate-950/50 border border-slate-800 rounded-2xl hover:border-emerald-500/50 hover:bg-emerald-500/5 transition-all group">
                             <div className="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 text-2xl group-hover:bg-emerald-500 group-hover:text-white transition-all">
                                 <HiChatAlt2 />
                             </div>
