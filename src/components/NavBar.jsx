@@ -35,7 +35,7 @@ const NavBar = () => {
                 </div>
             </div>
 
-            <div className={`md:hidden absoluite top-full left-0 w-full bg-slate-950 border-b border-slate-800 transition-all duration-300 overflow-hidden ${navOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'}`}>
+            <div className={`md:hidden absolute top-full left-0 w-full bg-slate-950 border-b border-slate-800 transition-all duration-300 overflow-hidden ${navOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'}`}>
                 <div className='flex flex-col gap-6 p-8 text-center text-sm font-bold tracking-widest text-slate-400 uppercase'>
                     <a href="#hero" className='hover:text-sky-400' onClick={() => setNavOpen(false)}>HOME</a>
                     <a href="#about" className='hover:text-sky-400' onClick={() => setNavOpen(false)}>ABOUT</a>
