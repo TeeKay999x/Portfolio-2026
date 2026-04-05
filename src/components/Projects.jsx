@@ -18,7 +18,7 @@ const projects = [
     title: "Hotel Just Stay",
     description: "Professional hospitality website featuring a responsive hero section and booking UI for a luxury hotel.",
     tech: ["React", "Tailwind CSS", "Vite"],
-    status: "Live but still in development",
+    status: "Live",
     image: hotelImg, // Placeholder
     link: "https://hoteljuststay.vercel.app"
   },
@@ -76,14 +76,14 @@ const Projects = () => {
                 {/* Status Badge */}
                 <div className="flex items-center gap-2 mb-4">
                   <span className="relative flex h-2 w-2">
-                    {project.status === "Live but still in development" && (
+                    {project.status === "Live" && (
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                     )} 
-                    <span className={`relative inline-flex rounded-full h-2 w-2 ${project.status === "Live but still in development" ? 'bg-emerald-400' :
+                    <span className={`relative inline-flex rounded-full h-2 w-2 ${project.status === "Live" ? 'bg-emerald-400' :
                         project.status === "In Development" ? 'bg-yellow-400' : 'bg-sky-400'
                       }`}></span>
                   </span>
-                  <span className={`text-[10px] font-black uppercase tracking-[0.2em] ${project.status === "Live but still in development" ? 'text-emerald-400' :
+                  <span className={`text-[10px] font-black uppercase tracking-[0.2em] ${project.status === "Live" ? 'text-emerald-400' :
                       project.status === "In Development" ? 'text-yellow-400' : 'text-sky-400'
                     }`}>
                     {project.status}
