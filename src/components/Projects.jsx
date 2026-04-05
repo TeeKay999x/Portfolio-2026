@@ -20,7 +20,7 @@ const projects = [
     tech: ["React", "Tailwind CSS", "Vite"],
     status: "Live but still in development",
     image: hotelImg, // Placeholder
-    link: "#"
+    link: "https://hoteljuststay.vercel.app"
   },
   {
     title: "Cyber Link Tree",
